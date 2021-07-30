@@ -60,11 +60,11 @@
 
                 <TextView
                     android:id="@+id/tvUsername"
+                    style="@style/text_login"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/text_label_email_login"
-                    android:textColor="@color/color_text_notice"
-                    android:textSize="14dp" />
+                    />
 
                 <EditText
                     android:id="@+id/edEmailLogin"
@@ -84,11 +84,11 @@
 
                 <TextView
                     android:id="@+id/tvPass"
+                    style="@style/text_login"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/text_label_pass_login"
-                    android:textColor="@color/color_text_notice"
-                    android:textSize="14dp" />
+                     />
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -119,13 +119,12 @@
 
                 <TextView
                     android:id="@+id/tvForgotPass"
+                    style="@style/text_login"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/text_forgot_pass"
                     android:layout_alignParentBottom="true"
                     android:layout_marginStart="10dp"
-                    android:textColor="@color/color_text_notice"
-                    android:textSize="14sp"
                     />
 
             </RelativeLayout>
@@ -155,13 +154,13 @@
 
             <TextView
                 android:id="@+id/tvLoginSSO"
+                style="@style/text_login"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="@string/text_login_other"
                 android:gravity="center"
                 android:visibility="visible"
-                android:textColor="@color/color_text_notice"
-                android:textSize="15dp" />
+                />
 
         </RelativeLayout>
 
