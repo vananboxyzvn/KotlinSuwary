@@ -1,10 +1,11 @@
-package com.example.myapplication
+package com.example.myapplication.ui.main.view
 
 import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import androidx.appcompat.app.AppCompatActivity
+import com.example.myapplication.R
 
 class SplashActivity : AppCompatActivity() {
     private lateinit var mHandler: Handler
@@ -16,6 +17,7 @@ class SplashActivity : AppCompatActivity() {
         mHandler = Handler(Looper.getMainLooper())
         mRunnable = Runnable {
             startActivity(Intent(this, LoginActivity::class.java))
+            finish()
         }
     }
 

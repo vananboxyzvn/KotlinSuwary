@@ -6,7 +6,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mainLayout"
     android:background="@color/color_white"
-    tools:context=".LoginActivity"
+    tools:context=".ui.main.view.LoginActivity"
     tools:showIn="@layout/activity_login"
     >
 

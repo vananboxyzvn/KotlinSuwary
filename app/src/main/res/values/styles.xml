@@ -2,7 +2,7 @@
 <resources>
     <style name="text_login">
         <item name="android:textSize">@dimen/login_text_size</item>
-        <item name="android:textColor">"@color/color_text_notice</item>
+        <item name="android:textColor">@color/color_text_notice</item>
     </style>
 
 </resources>
